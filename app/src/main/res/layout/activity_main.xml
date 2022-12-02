@@ -46,7 +46,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="100dp"
-        android:text="Start"
+        android:onClick="onClickStart"
+        android:text="@string/start"
         app:layout_constraintEnd_toEndOf="@+id/bulb_3"
         app:layout_constraintStart_toStartOf="@+id/bulb_3"
         app:layout_constraintTop_toBottomOf="@+id/bulb_3" />
